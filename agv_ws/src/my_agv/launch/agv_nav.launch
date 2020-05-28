@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find my_agv)/launch/agv_base.launch"/>
+  <include file="$(find my_map)/launch/hokuyo.launch"/>
+  <include file="$(find my_nav)/launch/my_nav.launch"/>
+</launch>

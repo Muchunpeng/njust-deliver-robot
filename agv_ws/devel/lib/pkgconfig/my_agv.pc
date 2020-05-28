@@ -1,0 +1,8 @@
+prefix=/home/mu/ros/agv_ws/devel
+
+Name: my_agv
+Description: Description of my_agv
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

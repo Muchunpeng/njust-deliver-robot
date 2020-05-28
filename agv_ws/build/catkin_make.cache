@@ -1,0 +1,2 @@
+my_agv:my_joy:my_map:my_nav:my_serial:my_sim
+-DCATKIN_DEVEL_PREFIX=/home/mu/ros/agv_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mu/ros/agv_ws/install -G Unix Makefiles

@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find my_agv)/launch/agv_base.launch"/>
+  <include file="$(find my_map)/launch/my_map.launch"/>
+</launch>

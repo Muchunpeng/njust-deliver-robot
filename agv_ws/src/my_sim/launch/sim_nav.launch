@@ -1,0 +1,14 @@
+<launch>
+  <arg name="map_file" default="$(find my_sim)/maps/map.yaml"/>
+  <arg name="open_rviz" default="true"/>
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch"/>
+  <include file="$(find my_nav)/launch/my_nav.launch" >
+      <param name="slam_methods" value="$(arg map_file)"/>
+  </include>
+
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_navigation.rviz"/>
+  </group>
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="key_control" output="screen" />
+</launch>

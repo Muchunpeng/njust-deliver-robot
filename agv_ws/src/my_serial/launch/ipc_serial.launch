@@ -1,0 +1,5 @@
+<launch>
+    <node  respawn="true" pkg="my_serial" type="ipc_serial" name="ipc_serial" output="screen">
+       <rosparam file="$(find my_serial)/param/AGV_base.yaml"/>
+    </node>
+</launch>

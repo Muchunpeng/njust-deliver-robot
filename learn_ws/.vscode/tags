@@ -1,0 +1,588 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+.ycm_extra_conf.py	../.ycm_extra_conf.py	1;"	kind:file	line:1
+AMCL.cfg	../src/navigation/amcl/cfg/AMCL.cfg	1;"	kind:file	line:1
+BaseLocalPlanner.cfg	../src/navigation/base_local_planner/cfg/BaseLocalPlanner.cfg	1;"	kind:file	line:1
+CATKIN_MARKER_FILE	../devel/_setup_util.py	/^CATKIN_MARKER_FILE = '.catkin'$/;"	kind:variable	line:46
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^            CMAKE_PREFIX_PATH = '\/opt\/ros\/kinetic'.split(';')$/;"	kind:variable	line:273
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^            CMAKE_PREFIX_PATH = []$/;"	kind:variable	line:276
+CMAKE_PREFIX_PATH	../devel/_setup_util.py	/^        CMAKE_PREFIX_PATH = os.pathsep.join(CMAKE_PREFIX_PATH)$/;"	kind:variable	line:286
+CalibrateAngular	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	/^class CalibrateAngular():$/;"	kind:class	line:34
+CalibrateAngular.cfg	../src/rbx1/rbx1_nav/cfg/CalibrateAngular.cfg	1;"	kind:file	line:1
+CalibrateLinear	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	/^class CalibrateLinear():$/;"	kind:class	line:32
+CalibrateLinear.cfg	../src/rbx1/rbx1_nav/cfg/CalibrateLinear.cfg	1;"	kind:file	line:1
+CamShiftNode	../src/rbx1/rbx1_vision/nodes/camshift.py	/^class CamShiftNode(ROS2OpenCV2):$/;"	kind:class	line:17
+Chess	../src/rbx1/rbx1_vision/nodes/video.py	/^class Chess(VideoSynthBase):$/;"	kind:class	line:42
+Chess	../src/rbx1/rbx1_vision/scripts/script_video.py	/^class Chess(VideoSynthBase):$/;"	kind:class	line:44
+Costmap2D.cfg	../src/navigation/costmap_2d/cfg/Costmap2D.cfg	1;"	kind:file	line:1
+DWAPlanner.cfg	../src/navigation/dwa_local_planner/cfg/DWAPlanner.cfg	1;"	kind:file	line:1
+DirectoryOfThisScript	../.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	kind:function	line:38
+DoDishesServer	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Server.py	/^  class DoDishesServer:$/;"	kind:class	line:10
+ENV_VAR_SUBFOLDERS	../devel/_setup_util.py	/^ENV_VAR_SUBFOLDERS = {$/;"	kind:variable	line:59
+FaceDetector	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^class FaceDetector(ROS2OpenCV2):$/;"	kind:class	line:30
+FaceTracker	../src/rbx1/rbx1_vision/nodes/face_tracker.py	/^class FaceTracker(FaceDetector, LKTracker):$/;"	kind:class	line:31
+FaceTracker	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^class FaceTracker(FaceDetector, LKTracker):$/;"	kind:class	line:33
+FastMatchTemplate	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^class FastMatchTemplate(ROS2OpenCV2):$/;"	kind:class	line:44
+FlagsForFile	../.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	kind:function	line:90
+Follower	../src/rbx1/rbx1_apps/nodes/follower.py	/^class Follower():$/;"	kind:class	line:35
+Follower	../src/rbx1/rbx1_apps/nodes/follower2.py	/^class Follower():$/;"	kind:class	line:38
+GenericPlugin.cfg	../src/navigation/costmap_2d/cfg/GenericPlugin.cfg	1;"	kind:file	line:1
+GetCompilationInfoForFile	../.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	kind:function	line:76
+GlobalPlanner.cfg	../src/navigation/global_planner/cfg/GlobalPlanner.cfg	1;"	kind:file	line:1
+GoodFeatures	../src/rbx1/rbx1_vision/src/rbx1_vision/good_features.py	/^class GoodFeatures(ROS2OpenCV2):$/;"	kind:class	line:29
+HeadTracker	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^class HeadTracker():$/;"	kind:class	line:31
+IS_DARWIN	../devel/_setup_util.py	/^IS_DARWIN = (system == 'Darwin')$/;"	kind:variable	line:49
+IS_WINDOWS	../devel/_setup_util.py	/^IS_WINDOWS = (system == 'Windows')$/;"	kind:variable	line:50
+InflationPlugin.cfg	../src/navigation/costmap_2d/cfg/InflationPlugin.cfg	1;"	kind:file	line:1
+IsHeaderFile	../.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	kind:function	line:71
+JointStateMessage	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^class JointStateMessage():$/;"	kind:class	line:28
+JointStatePublisher	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^class JointStatePublisher():$/;"	kind:class	line:35
+LKTracker	../src/rbx1/rbx1_vision/src/rbx1_vision/lk_tracker.py	/^class LKTracker(GoodFeatures):$/;"	kind:class	line:29
+LocalPlannerLimits.cfg	../src/navigation/base_local_planner/cfg/LocalPlannerLimits.cfg	1;"	kind:file	line:1
+MakeRelativePathsInFlagsAbsolute	../.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	kind:function	line:42
+MoveBase.cfg	../src/navigation/move_base/cfg/MoveBase.cfg	1;"	kind:file	line:1
+MoveBaseSquare	../src/rbx1/rbx1_nav/nodes/move_base_square.py	/^class MoveBaseSquare():$/;"	kind:class	line:33
+MultipleMaxLoc	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def MultipleMaxLoc(self, result, numMaxima):$/;"	kind:member	line:311
+NAME	../src/navigation/map_server/test/consumer.py	/^NAME = 'consumer'$/;"	kind:variable	line:38
+NavSquare	../src/rbx1/rbx1_nav/nodes/nav_square.py	/^class NavSquare():$/;"	kind:class	line:31
+NavTest	../src/rbx1/rbx1_nav/nodes/nav_test.py	/^class NavTest():$/;"	kind:class	line:34
+ObjectFollower	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^class ObjectFollower():$/;"	kind:class	line:33
+ObjectTracker	../src/rbx1/rbx1_apps/nodes/object_tracker.py	/^class ObjectTracker():$/;"	kind:class	line:29
+ObstaclePlugin.cfg	../src/navigation/costmap_2d/cfg/ObstaclePlugin.cfg	1;"	kind:file	line:1
+OdomEKF	../src/rbx1/rbx1_bringup/nodes/odom_ekf.py	/^class OdomEKF():$/;"	kind:class	line:30
+OutAndBack	../src/rbx1/rbx1_nav/nodes/odom_out_and_back.py	/^class OutAndBack():$/;"	kind:class	line:31
+OutAndBack	../src/rbx1/rbx1_nav/nodes/timed_out_and_back.py	/^class OutAndBack():$/;"	kind:class	line:29
+PACKAGE	../src/navigation/amcl/cfg/AMCL.cfg	/^PACKAGE = 'amcl'$/;"	kind:variable	line:3
+PACKAGE	../src/navigation/base_local_planner/cfg/BaseLocalPlanner.cfg	/^PACKAGE = 'base_local_planner'$/;"	kind:variable	line:3
+PACKAGE	../src/navigation/global_planner/cfg/GlobalPlanner.cfg	/^PACKAGE = "global_planner"$/;"	kind:variable	line:2
+PACKAGE	../src/navigation/move_base/cfg/MoveBase.cfg	/^PACKAGE = 'move_base'$/;"	kind:variable	line:3
+PACKAGE	../src/rbx1/rbx1_nav/cfg/CalibrateAngular.cfg	/^PACKAGE = "rbx1_nav"$/;"	kind:variable	line:3
+PACKAGE	../src/rbx1/rbx1_nav/cfg/CalibrateLinear.cfg	/^PACKAGE = "rbx1_nav"$/;"	kind:variable	line:3
+PATH_TO_ADD_SUFFIX	../devel/_setup_util.py	/^PATH_TO_ADD_SUFFIX = ['bin']$/;"	kind:variable	line:52
+PKG	../src/navigation/map_server/test/consumer.py	/^PKG = 'static_map_server'$/;"	kind:variable	line:37
+PoseSetter	../src/navigation/amcl/test/set_pose.py	/^class PoseSetter(rospy.SubscribeListener):$/;"	kind:class	line:10
+ROS2OpenCV2	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^class ROS2OpenCV2(object):$/;"	kind:class	line:40
+Relax	../src/rbx1/rbx1_dynamixels/nodes/relax_all_servos.py	/^class Relax():$/;"	kind:class	line:29
+SOURCE_EXTENSIONS	../.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c' ]$/;"	kind:variable	line:36
+Sketcher	../src/rbx1/rbx1_vision/nodes/common.py	/^class Sketcher:$/;"	kind:class	line:61
+Sketcher	../src/rbx1/rbx1_vision/scripts/common.py	/^class Sketcher:$/;"	kind:class	line:61
+TalkBack	../src/rbx1/rbx1_speech/nodes/talkback.py	/^class TalkBack:$/;"	kind:class	line:29
+TemplateTracker	../src/rbx1/rbx1_vision/nodes/template_tracker.py	/^class TemplateTracker(ROS2OpenCV2):$/;"	kind:class	line:20
+TestBasicLocalization	../src/navigation/amcl/test/basic_localization.py	/^class TestBasicLocalization(unittest.TestCase):$/;"	kind:class	line:16
+TestConsumer	../src/navigation/map_server/test/consumer.py	/^class TestConsumer(unittest.TestCase):$/;"	kind:class	line:49
+Video2ROS	../src/rbx1/rbx1_vision/nodes/video2ros.py	/^class Video2ROS:$/;"	kind:class	line:31
+VideoSynthBase	../src/rbx1/rbx1_vision/nodes/video.py	/^class VideoSynthBase(object):$/;"	kind:class	line:7
+VideoSynthBase	../src/rbx1/rbx1_vision/scripts/script_video.py	/^class VideoSynthBase(object):$/;"	kind:class	line:9
+VoiceNav	../src/rbx1/rbx1_speech/nodes/voice_nav.py	/^class VoiceNav:$/;"	kind:class	line:19
+VoxelPlugin.cfg	../src/navigation/costmap_2d/cfg/VoxelPlugin.cfg	1;"	kind:file	line:1
+__execfiles	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	/^__execfiles = []$/;"	kind:variable	line:19
+__execfiles	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	/^__execfiles = []$/;"	kind:variable	line:19
+__execfiles	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	/^__execfiles = []$/;"	kind:variable	line:19
+__extended_path	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	/^__extended_path = "\/home\/mu\/ros\/learn_ws\/src\/navigation\/base_local_planner\/src".split(";")$/;"	kind:variable	line:10
+__extended_path	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	/^__extended_path = "\/home\/mu\/ros\/learn_ws\/src\/rbx1\/rbx1_nav\/src".split(";")$/;"	kind:variable	line:10
+__extended_path	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	/^__extended_path = "\/home\/mu\/ros\/learn_ws\/src\/rbx1\/rbx1_vision\/src".split(";")$/;"	kind:variable	line:10
+__init__	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Server.py	/^    def __init__(self):$/;"	kind:member	line:11
+__init__	../src/navigation/amcl/test/set_pose.py	/^    def __init__(self, pose, stamp, publish_time):$/;"	kind:member	line:11
+__init__	../src/navigation/map_server/test/consumer.py	/^    def __init__(self, *args):$/;"	kind:member	line:50
+__init__	../src/rbx1/rbx1_apps/nodes/follower.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../src/rbx1/rbx1_apps/nodes/follower2.py	/^    def __init__(self):$/;"	kind:member	line:39
+__init__	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^    def __init__(self):$/;"	kind:member	line:34
+__init__	../src/rbx1/rbx1_apps/nodes/object_tracker.py	/^    def __init__(self):$/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_bringup/nodes/odom_ekf.py	/^    def __init__(self):$/;"	kind:member	line:31
+__init__	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^    def __init__(self):$/;"	kind:member	line:36
+__init__	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^    def __init__(self, name, position, velocity, effort):$/;"	kind:member	line:29
+__init__	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def __init__(self):$/;"	kind:member	line:32
+__init__	../src/rbx1/rbx1_dynamixels/nodes/relax_all_servos.py	/^    def __init__(self):$/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	/^    def __init__(self):$/;"	kind:member	line:35
+__init__	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	/^    def __init__(self):$/;"	kind:member	line:33
+__init__	../src/rbx1/rbx1_nav/nodes/move_base_square.py	/^    def __init__(self):$/;"	kind:member	line:34
+__init__	../src/rbx1/rbx1_nav/nodes/nav_square.py	/^    def __init__(self):$/;"	kind:member	line:32
+__init__	../src/rbx1/rbx1_nav/nodes/nav_test.py	/^    def __init__(self):$/;"	kind:member	line:35
+__init__	../src/rbx1/rbx1_nav/nodes/odom_out_and_back.py	/^    def __init__(self):$/;"	kind:member	line:32
+__init__	../src/rbx1/rbx1_nav/nodes/timed_out_and_back.py	/^    def __init__(self):$/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_speech/nodes/talkback.py	/^    def __init__(self, script_path):$/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_speech/nodes/voice_nav.py	/^    def __init__(self):$/;"	kind:member	line:20
+__init__	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def __init__(self, node_name):$/;"	kind:member	line:18
+__init__	../src/rbx1/rbx1_vision/nodes/common.py	/^    def __init__(self, windowname, dests, colors_func):$/;"	kind:member	line:62
+__init__	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def __init__(self):$/;"	kind:member	line:34
+__init__	../src/rbx1/rbx1_vision/nodes/face_tracker.py	/^    def __init__(self, node_name):$/;"	kind:member	line:32
+__init__	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^    def __init__(self, node_name):$/;"	kind:member	line:34
+__init__	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def __init__(self, node_name):$/;"	kind:member	line:45
+__init__	../src/rbx1/rbx1_vision/nodes/template_tracker.py	/^    def __init__(self, node_name):$/;"	kind:member	line:21
+__init__	../src/rbx1/rbx1_vision/nodes/video.py	/^    def __init__(self, **kw):$/;"	kind:member	line:43
+__init__	../src/rbx1/rbx1_vision/nodes/video.py	/^    def __init__(self, size=None, noise=0.0, bg = None, **params):$/;"	kind:member	line:8
+__init__	../src/rbx1/rbx1_vision/nodes/video2ros.py	/^    def __init__(self):$/;"	kind:member	line:32
+__init__	../src/rbx1/rbx1_vision/scripts/common.py	/^    def __init__(self, windowname, dests, colors_func):$/;"	kind:member	line:62
+__init__	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def __init__(self, **kw):$/;"	kind:member	line:45
+__init__	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def __init__(self, size=None, noise=0.0, bg = None, **params):$/;"	kind:member	line:10
+__init__	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^    def __init__(self, node_name):$/;"	kind:member	line:31
+__init__	../src/rbx1/rbx1_vision/src/rbx1_vision/good_features.py	/^    def __init__(self, node_name): $/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_vision/src/rbx1_vision/lk_tracker.py	/^    def __init__(self, node_name):$/;"	kind:member	line:30
+__init__	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def __init__(self, node_name):        $/;"	kind:member	line:41
+__init__.py	../devel/lib/python2.7/dist-packages/action_demo/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/base_local_planner/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/base_local_planner/cfg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/costmap_2d/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/costmap_2d/cfg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/global_planner/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/global_planner/cfg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/msgs_demo/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/navfn/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/rbx1_nav/cfg/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/service_demo/__init__.py	1;"	kind:file	line:1
+__init__.py	../devel/lib/python2.7/dist-packages/topic_demo/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/navigation/base_local_planner/src/local_planner_limits/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/rbx1/rbx1_apps/src/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/rbx1/rbx1_nav/src/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/rbx1/rbx1_nav/src/rbx1_nav/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/rbx1/rbx1_nav/src/rbx1_nav/cfg/__init__.py	1;"	kind:file	line:1
+__init__.py	../src/rbx1/rbx1_vision/src/rbx1_vision/__init__.py	1;"	kind:file	line:1
+__path__	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	kind:variable	line:16
+__path__	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	kind:variable	line:16
+__path__	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	kind:variable	line:16
+_get_workspaces	../devel/_setup_util.py	/^def _get_workspaces(environ, include_fuerte=False, include_non_existing=False):$/;"	kind:function	line:120
+_jet_data	../src/rbx1/rbx1_vision/nodes/common.py	/^_jet_data =   {'red':   ((0., 0, 0), (0.35, 0, 0), (0.66, 1, 1), (0.89,1, 1),$/;"	kind:variable	line:89
+_jet_data	../src/rbx1/rbx1_vision/scripts/common.py	/^_jet_data =   {'red':   ((0., 0, 0), (0.35, 0, 0), (0.66, 1, 1), (0.89,1, 1),$/;"	kind:variable	line:89
+_parse_arguments	../devel/_setup_util.py	/^def _parse_arguments(args=None):$/;"	kind:function	line:256
+_prefix_env_variable	../devel/_setup_util.py	/^def _prefix_env_variable(environ, name, paths, subfolders):$/;"	kind:function	line:155
+_rollback_env_variable	../devel/_setup_util.py	/^def _rollback_env_variable(environ, name, subfolders):$/;"	kind:function	line:89
+_setup_util.py	../devel/_setup_util.py	1;"	kind:file	line:1
+add_generic_localplanner_params	../src/navigation/base_local_planner/src/local_planner_limits/__init__.py	/^def add_generic_localplanner_params(gen):$/;"	kind:function	line:15
+add_keypoints	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^    def add_keypoints(self, track_box):$/;"	kind:member	line:130
+angular	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^            angular = 4 * math.atan2(trans[1], trans[0])$/;"	kind:variable	line:38
+anorm	../src/rbx1/rbx1_vision/nodes/common.py	/^def anorm(a):$/;"	kind:function	line:14
+anorm	../src/rbx1/rbx1_vision/scripts/common.py	/^def anorm(a):$/;"	kind:function	line:14
+anorm2	../src/rbx1/rbx1_vision/nodes/common.py	/^def anorm2(a):$/;"	kind:function	line:12
+anorm2	../src/rbx1/rbx1_vision/scripts/common.py	/^def anorm2(a):$/;"	kind:function	line:12
+args	../devel/_setup_util.py	/^            args = _parse_arguments()$/;"	kind:variable	line:266
+args	../src/rbx1/rbx1_vision/nodes/video.py	/^    args = dict(args)$/;"	kind:variable	line:127
+args	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    args = dict(args)$/;"	kind:variable	line:129
+assignment	../devel/_setup_util.py	/^def assignment(key, value):$/;"	kind:function	line:181
+axis_q	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    axis_q=tf.transformations.quaternion_about_axis(0.123, (1, 0, 0))$/;"	kind:variable	line:35
+base_path	../devel/_setup_util.py	/^            base_path = base_path.replace(os.path.sep, '\/')$/;"	kind:variable	line:282
+base_path	../devel/_setup_util.py	/^        base_path = os.path.dirname(__file__)$/;"	kind:variable	line:278
+basic_localization.py	../src/navigation/amcl/test/basic_localization.py	1;"	kind:file	line:1
+best_match_box	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_match_box = ((best_x + w\/2, best_y + h\/2), (w, h), -best_r)$/;"	kind:variable	line:170
+best_r	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                best_r = r$/;"	kind:variable	line:159
+best_r	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_r = 0$/;"	kind:variable	line:100
+best_result	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                best_result = display_result.copy()$/;"	kind:variable	line:161
+best_result	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_result = cv2.resize(best_result, (int(pow(2.0, n_pyr)) * best_result.shape[1], int(pow(2.0, n_pyr)) * best_result.shape[0]))$/;"	kind:variable	line:178
+best_s	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                best_s = s$/;"	kind:variable	line:158
+best_s	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_s = 1$/;"	kind:variable	line:99
+best_template	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                best_template = template_copy.copy()$/;"	kind:variable	line:160
+best_template	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_template = cv2.resize(best_template, (int(pow(2.0, n_pyr)) * best_template.shape[1], int(pow(2.0, n_pyr)) * best_template.shape[0]))$/;"	kind:variable	line:179
+best_x	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_x = 0$/;"	kind:variable	line:101
+best_y	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    best_y = 0$/;"	kind:variable	line:102
+blockSize	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^                   blockSize = 20,$/;"	kind:variable	line:26
+bounds	../src/navigation/map_server/scripts/crop_map	/^    bounds = find_bounds(map_image)$/;"	kind:variable	line:100
+br	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    br = tf.TransformBroadcaster()$/;"	kind:variable	line:13
+calibrate_angular.py	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	1;"	kind:file	line:1
+calibrate_linear.py	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	1;"	kind:file	line:1
+callback	../src/ROS-Academy-for-Beginners/topic_demo/scripts/pylistener.py	/^def callback(gps):$/;"	kind:function	line:9
+callback	../src/navigation/map_server/test/consumer.py	/^    def callback(self, data):$/;"	kind:member	line:54
+camshift.py	../src/rbx1/rbx1_vision/nodes/camshift.py	1;"	kind:file	line:1
+caps	../src/rbx1/rbx1_vision/nodes/video.py	/^    caps = map(create_capture, sources)$/;"	kind:variable	line:134
+caps	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    caps = map(create_capture, sources)$/;"	kind:variable	line:137
+center_head_servos	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def center_head_servos(self):$/;"	kind:member	line:243
+ch	../src/rbx1/rbx1_vision/nodes/video.py	/^        ch = cv2.waitKey(1)$/;"	kind:variable	line:142
+ch	../src/rbx1/rbx1_vision/scripts/script_video.py	/^        ch = cv2.waitKey(5)$/;"	kind:variable	line:145
+classes	../src/rbx1/rbx1_vision/nodes/video.py	/^classes = dict(chess=Chess)$/;"	kind:variable	line:91
+classes	../src/rbx1/rbx1_vision/scripts/script_video.py	/^classes = dict(chess=Chess)$/;"	kind:variable	line:93
+cleanup	../src/rbx1/rbx1_speech/nodes/talkback.py	/^    def cleanup(self):$/;"	kind:member	line:76
+cleanup	../src/rbx1/rbx1_speech/nodes/voice_nav.py	/^    def cleanup(self):$/;"	kind:member	line:172
+cleanup	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def cleanup(self):$/;"	kind:member	line:124
+cleanup	../src/rbx1/rbx1_vision/nodes/video2ros.py	/^    def cleanup(self):$/;"	kind:member	line:183
+cleanup	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def cleanup(self):$/;"	kind:member	line:386
+client	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Client.py	/^      client = actionlib.SimpleActionClient('dishes', DoDishesAction)$/;"	kind:variable	line:12
+client_demo.py	../src/ROS-Academy-for-Beginners/service_demo/scripts/client_demo.py	1;"	kind:file	line:1
+client_srv	../src/ROS-Academy-for-Beginners/service_demo/scripts/client_demo.py	/^def client_srv():$/;"	kind:function	line:10
+clock	../src/rbx1/rbx1_vision/nodes/common.py	/^def clock():$/;"	kind:function	line:116
+clock	../src/rbx1/rbx1_vision/scripts/common.py	/^def clock():$/;"	kind:function	line:116
+cmap_data	../src/rbx1/rbx1_vision/nodes/common.py	/^cmap_data = { 'jet' : _jet_data }$/;"	kind:variable	line:96
+cmap_data	../src/rbx1/rbx1_vision/scripts/common.py	/^cmap_data = { 'jet' : _jet_data }$/;"	kind:variable	line:96
+cmd	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^            cmd = geometry_msgs.msg.Twist()$/;"	kind:variable	line:40
+combo_enum	../src/navigation/costmap_2d/cfg/ObstaclePlugin.cfg	/^combo_enum = gen.enum([gen.const("Overwrite", int_t,  0, "Overwrite values"),$/;"	kind:variable	line:11
+combo_enum	../src/navigation/costmap_2d/cfg/VoxelPlugin.cfg	/^combo_enum = gen.enum([gen.const("Overwrite", int_t,  0, "Overwrite values"),$/;"	kind:variable	line:16
+comment	../devel/_setup_util.py	/^def comment(msg):$/;"	kind:function	line:188
+common.py	../src/rbx1/rbx1_vision/nodes/common.py	1;"	kind:file	line:1
+common.py	../src/rbx1/rbx1_vision/scripts/common.py	1;"	kind:file	line:1
+compilation_database_folder	../.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	kind:variable	line:29
+compute_angle_diff	../src/navigation/amcl/test/basic_localization.py	/^    def compute_angle_diff(self):$/;"	kind:member	line:33
+computed_cropped_origin	../src/navigation/map_server/scripts/crop_map	/^def computed_cropped_origin(map_image, bounds, resolution, origin):$/;"	kind:function	line:58
+consumer.py	../src/navigation/map_server/test/consumer.py	1;"	kind:file	line:1
+controller_state_handler	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^    def controller_state_handler(self, msg):$/;"	kind:member	line:67
+convert_depth_image	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^    def convert_depth_image(self, ros_image):$/;"	kind:member	line:262
+convert_depth_image	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def convert_depth_image(self, ros_image):$/;"	kind:member	line:285
+convert_image	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def convert_image(self, ros_image):$/;"	kind:member	line:277
+create_capture	../src/rbx1/rbx1_vision/nodes/video.py	/^def create_capture(source):$/;"	kind:function	line:93
+create_capture	../src/rbx1/rbx1_vision/scripts/script_video.py	/^def create_capture(source):$/;"	kind:function	line:95
+crop_image	../src/navigation/map_server/scripts/crop_map	/^        crop_image = "cropped.pgm"$/;"	kind:variable	line:92
+crop_image	../src/navigation/map_server/scripts/crop_map	/^        crop_image = crop_name + ".pgm"$/;"	kind:variable	line:89
+crop_map	../src/navigation/map_server/scripts/crop_map	1;"	kind:file	line:1
+crop_name	../src/navigation/map_server/scripts/crop_map	/^            crop_name = crop_name[:-5]$/;"	kind:variable	line:87
+crop_name	../src/navigation/map_server/scripts/crop_map	/^        crop_name = sys.argv[2]$/;"	kind:variable	line:85
+crop_yaml	../src/navigation/map_server/scripts/crop_map	/^        crop_yaml = "cropped.yaml"$/;"	kind:variable	line:91
+crop_yaml	../src/navigation/map_server/scripts/crop_map	/^        crop_yaml = crop_name + ".yaml"$/;"	kind:variable	line:88
+cropped_image	../src/navigation/map_server/scripts/crop_map	/^    cropped_image = map_image.crop((bounds[0], bounds[2], bounds[1] + 1, bounds[3] + 1))$/;"	kind:variable	line:103
+ctrl_c	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        ctrl_c = False$/;"	kind:variable	line:16
+cvBox2D_to_cvRect	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def cvBox2D_to_cvRect(self, roi):$/;"	kind:member	line:357
+cvBridgeDemo	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^class cvBridgeDemo():$/;"	kind:class	line:33
+cvRect_to_cvBox2D	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def cvRect_to_cvBox2D(self, roi):$/;"	kind:member	line:371
+cv_bridge_demo.py	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	1;"	kind:file	line:1
+d	../src/navigation/base_local_planner/setup.py	/^d = generate_distutils_setup($/;"	kind:variable	line:5
+database	../.ycm_extra_conf.py	/^  database = None$/;"	kind:variable	line:34
+database	../.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	kind:variable	line:32
+depth_callback	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def depth_callback(self, ros_image):$/;"	kind:member	line:88
+depth_callback	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def depth_callback(self, data):$/;"	kind:member	line:262
+detect_face	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^    def detect_face(self, input_image):$/;"	kind:member	line:95
+detect_roi	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def detect_roi(self, detector, cv_image):$/;"	kind:member	line:118
+dishes_Client.py	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Client.py	1;"	kind:file	line:1
+dishes_Server.py	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Server.py	1;"	kind:file	line:1
+display_image	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^    display_image = cv2.resize(pyrdown_image, (image.shape[1], image.shape[0]))$/;"	kind:variable	line:36
+display_result	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            display_result = np.abs(result)**2$/;"	kind:variable	line:132
+display_selection	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def display_selection(self):$/;"	kind:member	line:331
+distance_to_cluster	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^    def distance_to_cluster(self, test_point, cluster):$/;"	kind:member	line:189
+draw_quads	../src/rbx1/rbx1_vision/nodes/video.py	/^    def draw_quads(self, img, quads, color = (0, 255, 0)):$/;"	kind:member	line:65
+draw_quads	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def draw_quads(self, img, quads, color = (0, 255, 0)):$/;"	kind:member	line:67
+draw_str	../src/rbx1/rbx1_vision/nodes/common.py	/^def draw_str(dst, (x, y), s):$/;"	kind:function	line:57
+draw_str	../src/rbx1/rbx1_vision/scripts/common.py	/^def draw_str(dst, (x, y), s):$/;"	kind:function	line:57
+drop_keypoints	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^    def drop_keypoints(self, min_keypoints, outlier_threshold, mse_threshold):$/;"	kind:member	line:200
+dynamic_reconfigure_callback	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	/^    def dynamic_reconfigure_callback(self, config, level):$/;"	kind:member	line:144
+dynamic_reconfigure_callback	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	/^    def dynamic_reconfigure_callback(self, config, level):$/;"	kind:member	line:125
+dynamixel_joint_state_publisher.py	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	1;"	kind:file	line:1
+edit_method	../src/navigation/global_planner/cfg/GlobalPlanner.cfg	/^        edit_method=orientation_enum)$/;"	kind:variable	line:29
+elapsed	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    elapsed = (clock() - start) * 1000$/;"	kind:variable	line:175
+elbow	../src/rbx1/rbx1_bringup/nodes/move_fake_pi_arm_start.py	/^    elbow = rospy.Publisher('arm_elbow_flex_joint\/command', Float64, queue_size=5)$/;"	kind:variable	line:33
+empty	../src/rbx1/rbx1_vision/nodes/video.py	/^    empty = 'synth:',$/;"	kind:variable	line:113
+empty	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    empty = 'synth:',$/;"	kind:variable	line:115
+environ	../devel/_setup_util.py	/^        environ = dict(os.environ)$/;"	kind:variable	line:288
+execute	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Server.py	/^    def execute(self, goal):$/;"	kind:member	line:15
+face_detector.py	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	1;"	kind:file	line:1
+face_tracker.py	../src/rbx1/rbx1_vision/nodes/face_tracker.py	1;"	kind:file	line:1
+face_tracker2.py	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	1;"	kind:file	line:1
+fake_wheels_pub.py	../src/rbx1/rbx1_dynamixels/nodes/fake_wheels_pub.py	1;"	kind:file	line:1
+fast_template.py	../src/rbx1/rbx1_vision/nodes/fast_template.py	1;"	kind:file	line:1
+find_bounds	../src/navigation/map_server/scripts/crop_map	/^def find_bounds(map_image):$/;"	kind:function	line:42
+find_env_hooks	../devel/_setup_util.py	/^def find_env_hooks(environ, cmake_prefix_path):$/;"	kind:function	line:204
+flags	../.ycm_extra_conf.py	/^flags = [$/;"	kind:variable	line:6
+fn	../src/rbx1/rbx1_vision/nodes/video.py	/^                fn = '%s\/shot_%d_%03d.bmp' % (shotdir, i, shot_idx)$/;"	kind:variable	line:147
+fn	../src/rbx1/rbx1_vision/scripts/script_video.py	/^                fn = '%s\/shot_%d_%03d.bmp' % (shotdir, i, shot_idx)$/;"	kind:variable	line:150
+fn1	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^        fn1 = "test_images\/mona_lisa_face.png"$/;"	kind:variable	line:18
+follower.py	../src/rbx1/rbx1_apps/nodes/follower.py	1;"	kind:file	line:1
+follower2.py	../src/rbx1/rbx1_apps/nodes/follower2.py	1;"	kind:file	line:1
+follower_model_frame	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        follower_model_frame = "\/mybot_link"$/;"	kind:variable	line:18
+gen	../src/navigation/amcl/cfg/AMCL.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:8
+gen	../src/navigation/base_local_planner/cfg/BaseLocalPlanner.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:9
+gen	../src/navigation/costmap_2d/cfg/Costmap2D.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:5
+gen	../src/navigation/costmap_2d/cfg/GenericPlugin.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:5
+gen	../src/navigation/costmap_2d/cfg/InflationPlugin.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:5
+gen	../src/navigation/costmap_2d/cfg/ObstaclePlugin.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:5
+gen	../src/navigation/costmap_2d/cfg/VoxelPlugin.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:5
+gen	../src/navigation/dwa_local_planner/cfg/DWAPlanner.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+gen	../src/navigation/global_planner/cfg/GlobalPlanner.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:6
+gen	../src/navigation/move_base/cfg/MoveBase.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+gen	../src/rbx1/rbx1_nav/cfg/CalibrateAngular.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+gen	../src/rbx1/rbx1_nav/cfg/CalibrateLinear.cfg	/^gen = ParameterGenerator()$/;"	kind:variable	line:7
+getKey	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^def getKey():$/;"	kind:function	line:45
+get_camera_info	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^    def get_camera_info(self, msg):$/;"	kind:member	line:273
+get_camera_info	../src/rbx1/rbx1_apps/nodes/object_tracker.py	/^    def get_camera_info(self, msg):$/;"	kind:member	line:155
+get_camera_info	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def get_camera_info(self, msg):$/;"	kind:member	line:314
+get_command	../src/rbx1/rbx1_speech/nodes/voice_nav.py	/^    def get_command(self, data):$/;"	kind:member	line:72
+get_frame	../src/rbx1/rbx1_vision/nodes/video2ros.py	/^    def get_frame(self):$/;"	kind:member	line:154
+get_keypoints	../src/rbx1/rbx1_vision/src/rbx1_vision/good_features.py	/^    def get_keypoints(self, input_image, detect_box):$/;"	kind:member	line:95
+get_odom	../src/rbx1/rbx1_nav/nodes/nav_square.py	/^    def get_odom(self):$/;"	kind:member	line:153
+get_odom	../src/rbx1/rbx1_nav/nodes/odom_out_and_back.py	/^    def get_odom(self):$/;"	kind:member	line:155
+get_odom_angle	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	/^    def get_odom_angle(self):$/;"	kind:member	line:133
+get_position	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	/^    def get_position(self):$/;"	kind:member	line:134
+gf_params	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^    gf_params = dict( maxCorners = 200, $/;"	kind:variable	line:23
+goal	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Client.py	/^      goal = DoDishesGoal()$/;"	kind:variable	line:15
+good_features.py	../src/rbx1/rbx1_vision/src/rbx1_vision/good_features.py	1;"	kind:file	line:1
+grey	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^    grey = cv2.cvtColor(img, cv.CV_BGR2GRAY)$/;"	kind:variable	line:31
+h	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                h = int(h * s)$/;"	kind:variable	line:149
+h	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    h = int(h * best_s)$/;"	kind:variable	line:167
+handle_function	../src/ROS-Academy-for-Beginners/service_demo/scripts/server_demo.py	/^def handle_function(req):$/;"	kind:function	line:22
+head_tracker.py	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	1;"	kind:file	line:1
+height_ratio	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        height_ratio = float(image.shape[0]) \/ template.shape[0]$/;"	kind:variable	line:55
+homotrans	../src/rbx1/rbx1_vision/nodes/common.py	/^def homotrans(H, x, y):$/;"	kind:function	line:17
+homotrans	../src/rbx1/rbx1_vision/scripts/common.py	/^def homotrans(H, x, y):$/;"	kind:function	line:17
+hue_histogram_as_image	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def hue_histogram_as_image(self, hist):$/;"	kind:member	line:132
+ignore_threshold	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    ignore_threshold = False$/;"	kind:variable	line:37
+image	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^    image = cv2.imread(image_fn, cv.CV_LOAD_IMAGE_COLOR)$/;"	kind:variable	line:29
+image	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    image = cv2.imread(test_file, cv.CV_LOAD_IMAGE_COLOR)$/;"	kind:variable	line:51
+image_callback	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def image_callback(self, ros_image):$/;"	kind:member	line:63
+image_callback	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def image_callback(self, data):$/;"	kind:member	line:130
+image_copy	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        image_copy = cv2.pyrDown(image_copy)$/;"	kind:variable	line:92
+image_copy	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    image_copy = image.copy()$/;"	kind:variable	line:84
+image_extensions	../src/rbx1/rbx1_vision/nodes/common.py	/^image_extensions = ['.bmp', '.jpg', '.jpeg', '.png', '.tif', '.tiff', '.pbm', '.pgm', '.ppm']$/;"	kind:variable	line:5
+image_extensions	../src/rbx1/rbx1_vision/scripts/common.py	/^image_extensions = ['.bmp', '.jpg', '.jpeg', '.png', '.tif', '.tiff', '.pbm', '.pgm', '.ppm']$/;"	kind:variable	line:5
+image_fn	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^        image_fn = "test_images\/mona_lisa_face.png"$/;"	kind:variable	line:21
+image_fn	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^        image_fn = sys.argv[1]$/;"	kind:variable	line:19
+img	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^    img = cv2.imread(fn1, cv2.CV_LOAD_IMAGE_COLOR)$/;"	kind:variable	line:30
+imgs	../src/rbx1/rbx1_vision/nodes/video.py	/^        imgs = []$/;"	kind:variable	line:137
+imgs	../src/rbx1/rbx1_vision/scripts/script_video.py	/^        imgs = []$/;"	kind:variable	line:140
+init_markers	../src/rbx1/rbx1_nav/nodes/move_base_square.py	/^    def init_markers(self):$/;"	kind:member	line:129
+init_servos	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def init_servos(self):$/;"	kind:member	line:264
+is_rect_nonzero	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def is_rect_nonzero(self, rect):$/;"	kind:member	line:344
+k	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^                   k = 0.04 )$/;"	kind:variable	line:28
+keypoints	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^    keypoints = cv2.goodFeaturesToTrack(grey, mask = None, **gf_params)$/;"	kind:variable	line:35
+lift	../src/rbx1/rbx1_bringup/nodes/move_fake_pi_arm_start.py	/^    lift = rospy.Publisher('arm_shoulder_lift_joint\/command', Float64, queue_size=5)$/;"	kind:variable	line:32
+linear	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^            linear = 0.5 * math.sqrt(trans[0] ** 2 + trans[1] ** 2)$/;"	kind:variable	line:39
+lines	../devel/_setup_util.py	/^        lines = []$/;"	kind:variable	line:289
+listener	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_listerner.py	/^    listener = tf.TransformListener() #TransformListener创建后就开始接受tf广播信息，最多可以缓存10s  目前存在的问题，是四个数值的顺序我还有点问题$/;"	kind:variable	line:10
+listener	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        listener = tf.TransformListener()$/;"	kind:variable	line:11
+listener	../src/ROS-Academy-for-Beginners/topic_demo/scripts/pylistener.py	/^def listener():$/;"	kind:function	line:13
+lk_tracker.py	../src/rbx1/rbx1_vision/src/rbx1_vision/lk_tracker.py	1;"	kind:file	line:1
+lmt	../src/navigation/amcl/cfg/AMCL.cfg	/^lmt = gen.enum([gen.const("beam_const", str_t, "beam", "Use beam laser model"), gen.const("likelihood_field_const", str_t, "likelihood_field", "Use likelihood_field laser model"), gen.const("likelihood_field_prob", str_t, "likelihood_field_prob", "Use likelihood_field_prob laser model")], "Laser Models")$/;"	kind:variable	line:52
+load_detector	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def load_detector(self, detector):$/;"	kind:member	line:97
+load_template_detector	../src/rbx1/rbx1_vision/nodes/template_tracker.py	/^    def load_template_detector(self):$/;"	kind:member	line:62
+lookat	../src/rbx1/rbx1_vision/nodes/common.py	/^def lookat(eye, target, up = (0, 0, 1)):$/;"	kind:function	line:39
+lookat	../src/rbx1/rbx1_vision/scripts/common.py	/^def lookat(eye, target, up = (0, 0, 1)):$/;"	kind:function	line:39
+m	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    m=tf.transformations.random_rotation_matrix(rand=None)$/;"	kind:variable	line:17
+m	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster02.py	/^    m=tf.TransformBroadcaster()$/;"	kind:variable	line:15
+m_q	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    m_q=tf.transformations.quaternion_from_matrix(m)$/;"	kind:variable	line:47
+m_rpy	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    m_rpy=tf.transformations.euler_from_matrix(m)$/;"	kind:variable	line:61
+m_v	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    m_v=tf.transformations.translation_from_matrix(m)$/;"	kind:variable	line:29
+main	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^def main(args):       $/;"	kind:function	line:128
+main	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^def main(args):$/;"	kind:function	line:387
+main	../src/rbx1/rbx1_vision/nodes/video2ros.py	/^def main(args):$/;"	kind:function	line:187
+main	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^def main(args):    $/;"	kind:function	line:390
+make_cmap	../src/rbx1/rbx1_vision/nodes/common.py	/^def make_cmap(name, n=256):$/;"	kind:function	line:98
+make_cmap	../src/rbx1/rbx1_vision/scripts/common.py	/^def make_cmap(name, n=256):$/;"	kind:function	line:98
+map_data	../src/navigation/map_server/scripts/crop_map	/^        map_data = yaml.safe_load(f)$/;"	kind:variable	line:82
+map_image	../src/navigation/map_server/scripts/crop_map	/^    map_image = Image.open(map_image_file)$/;"	kind:variable	line:98
+map_image_file	../src/navigation/map_server/scripts/crop_map	/^    map_image_file = map_data["image"]$/;"	kind:variable	line:94
+match_boxes	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    match_boxes = list()$/;"	kind:variable	line:104
+match_template	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def match_template(self, cv_image):$/;"	kind:member	line:124
+match_template	../src/rbx1/rbx1_vision/nodes/template_tracker.py	/^    def match_template(self, frame):$/;"	kind:member	line:106
+match_threshold	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    match_threshold = 0.7$/;"	kind:variable	line:40
+maxScore	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                maxScore = maxValue$/;"	kind:variable	line:156
+maxScore	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    maxScore = -1$/;"	kind:variable	line:98
+max_scale	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        max_scale = 0.9 * min(width_ratio, height_ratio)$/;"	kind:variable	line:58
+max_template_dimension	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        max_template_dimension = max(template.shape[0], template.shape[1])$/;"	kind:variable	line:60
+max_template_size	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    max_template_size = 250$/;"	kind:variable	line:44
+minDistance	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^                   minDistance = 7,$/;"	kind:variable	line:25
+min_scale	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        min_scale = 1.2 * float(min_template_size) \/ max_template_dimension$/;"	kind:variable	line:61
+min_template_size	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    min_template_size = 75$/;"	kind:variable	line:43
+model_to_be_followed_frame	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        model_to_be_followed_frame = "\/base_footprint"$/;"	kind:variable	line:19
+move	../src/rbx1/rbx1_nav/nodes/move_base_square.py	/^    def move(self, goal):$/;"	kind:member	line:112
+moveBindings	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^moveBindings = {$/;"	kind:variable	line:25
+move_base_square.py	../src/rbx1/rbx1_nav/nodes/move_base_square.py	1;"	kind:file	line:1
+move_fake_pi_arm_start.py	../src/rbx1/rbx1_bringup/nodes/move_fake_pi_arm_start.py	1;"	kind:file	line:1
+msg	../src/rbx1/rbx1_dynamixels/nodes/fake_wheels_pub.py	/^msg = JointState()$/;"	kind:variable	line:9
+mtx2rvec	../src/rbx1/rbx1_vision/nodes/common.py	/^def mtx2rvec(R):$/;"	kind:function	line:49
+mtx2rvec	../src/rbx1/rbx1_vision/scripts/common.py	/^def mtx2rvec(R):$/;"	kind:function	line:49
+n_pyr	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^        n_pyr = 2$/;"	kind:variable	line:27
+n_pyr	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^        n_pyr = int(sys.argv[2])$/;"	kind:variable	line:25
+n_pyr	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        n_pyr = 2$/;"	kind:variable	line:32
+n_pyr	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        n_pyr = int(sys.argv[3])$/;"	kind:variable	line:30
+n_q	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    n_q=tf.transformations.quaternion_conjugate(q)$/;"	kind:variable	line:39
+nav_square.py	../src/rbx1/rbx1_nav/nodes/nav_square.py	1;"	kind:file	line:1
+nav_test.py	../src/rbx1/rbx1_nav/nodes/nav_test.py	1;"	kind:file	line:1
+node_name	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^        node_name = "face_detector"$/;"	kind:variable	line:141
+normalize_angle	../src/rbx1/rbx1_nav/src/rbx1_nav/transform_utils.py	/^def normalize_angle(angle):$/;"	kind:function	line:17
+nothing	../src/rbx1/rbx1_vision/nodes/common.py	/^def nothing(*arg, **kw):$/;"	kind:function	line:113
+nothing	../src/rbx1/rbx1_vision/scripts/common.py	/^def nothing(*arg, **kw):$/;"	kind:function	line:113
+o_q	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    o_q=tf.transformations.quaternion_from_euler(1, 2, 3, 'ryxz')$/;"	kind:variable	line:43
+object_follower.py	../src/rbx1/rbx1_apps/nodes/object_follower.py	1;"	kind:file	line:1
+object_tracker.py	../src/rbx1/rbx1_apps/nodes/object_tracker.py	1;"	kind:file	line:1
+odom_ekf.py	../src/rbx1/rbx1_bringup/nodes/odom_ekf.py	1;"	kind:file	line:1
+odom_out_and_back.py	../src/rbx1/rbx1_nav/nodes/odom_out_and_back.py	1;"	kind:file	line:1
+odt	../src/navigation/amcl/cfg/AMCL.cfg	/^odt = gen.enum([gen.const("diff_const", str_t, "diff", "Use diff odom model"),$/;"	kind:variable	line:56
+on_mouse	../src/rbx1/rbx1_vision/nodes/common.py	/^    def on_mouse(self, event, x, y, flags, param):$/;"	kind:member	line:74
+on_mouse	../src/rbx1/rbx1_vision/scripts/common.py	/^    def on_mouse(self, event, x, y, flags, param):$/;"	kind:member	line:74
+on_mouse_click	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def on_mouse_click(self, event, x, y, flags, param):$/;"	kind:member	line:106
+orientation_enum	../src/navigation/global_planner/cfg/GlobalPlanner.cfg	/^orientation_enum = gen.enum([$/;"	kind:variable	line:13
+origin	../src/navigation/map_server/scripts/crop_map	/^    origin = map_data["origin"]$/;"	kind:variable	line:96
+p	../src/rbx1/rbx1_dynamixels/nodes/fake_wheels_pub.py	/^p = rospy.Publisher('joint_states', JointState, queue_size=5)$/;"	kind:variable	line:7
+package_dir	../src/navigation/base_local_planner/setup.py	/^    package_dir = {'': 'src'},$/;"	kind:variable	line:7
+package_dir	../src/rbx1/rbx1_nav/setup.py	/^    package_dir={'': 'src'})$/;"	kind:variable	line:9
+package_dir	../src/rbx1/rbx1_vision/setup.py	/^    package_dir={'': 'src'})$/;"	kind:variable	line:9
+packages	../src/navigation/base_local_planner/setup.py	/^    packages = ['local_planner_limits'],$/;"	kind:variable	line:6
+packages	../src/rbx1/rbx1_nav/setup.py	/^    packages=['rbx1_nav'],$/;"	kind:variable	line:8
+packages	../src/rbx1/rbx1_vision/setup.py	/^    packages=['rbx1_vision'],$/;"	kind:variable	line:8
+param_demo	../src/ROS-Academy-for-Beginners/param_demo/scripts/param_demo.py	/^def param_demo():$/;"	kind:function	line:6
+param_demo.py	../src/ROS-Academy-for-Beginners/param_demo/scripts/param_demo.py	1;"	kind:file	line:1
+peer_subscribe	../src/navigation/amcl/test/set_pose.py	/^    def peer_subscribe(self, topic_name, topic_publish, peer_publish):$/;"	kind:member	line:16
+pitch	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    pitch=0$/;"	kind:variable	line:19
+pose	../src/navigation/amcl/test/set_pose.py	/^    pose = map(float, rospy.myargv()[1:4])$/;"	kind:variable	line:36
+prepend	../devel/_setup_util.py	/^def prepend(environ, key, prefix):$/;"	kind:function	line:195
+prepend_env_variables	../devel/_setup_util.py	/^def prepend_env_variables(environ, env_var_subfolders, workspaces):$/;"	kind:function	line:135
+presets	../src/rbx1/rbx1_vision/nodes/video.py	/^presets = dict($/;"	kind:variable	line:112
+presets	../src/rbx1/rbx1_vision/scripts/script_video.py	/^presets = dict($/;"	kind:variable	line:114
+process_depth_image	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def process_depth_image(self, frame):$/;"	kind:member	line:120
+process_depth_image	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def process_depth_image(self, frame):$/;"	kind:member	line:328
+process_image	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:65
+process_image	../src/rbx1/rbx1_vision/nodes/cv_bridge_demo.py	/^    def process_image(self, frame):$/;"	kind:member	line:108
+process_image	../src/rbx1/rbx1_vision/nodes/face_tracker.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:47
+process_image	../src/rbx1/rbx1_vision/nodes/face_tracker2.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:65
+process_image	../src/rbx1/rbx1_vision/nodes/fast_template.py	/^    def process_image(self, cv_image):        $/;"	kind:member	line:84
+process_image	../src/rbx1/rbx1_vision/nodes/template_tracker.py	/^    def process_image(self, cv_image):        $/;"	kind:member	line:52
+process_image	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:71
+process_image	../src/rbx1/rbx1_vision/src/rbx1_vision/good_features.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:60
+process_image	../src/rbx1/rbx1_vision/src/rbx1_vision/lk_tracker.py	/^    def process_image(self, cv_image):$/;"	kind:member	line:54
+process_image	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def process_image(self, frame): $/;"	kind:member	line:325
+pub	../src/navigation/amcl/test/set_pose.py	/^    pub = rospy.Publisher("initialpose", PoseWithCovarianceStamped, PoseSetter(pose, stamp=t_stamp, publish_time=t_publish), queue_size=1)$/;"	kind:variable	line:45
+pub_ekf_odom	../src/rbx1/rbx1_bringup/nodes/odom_ekf.py	/^    def pub_ekf_odom(self, msg):$/;"	kind:member	line:46
+publishOdom	../src/navigation/fake_localization/static_odom_broadcaster.py	/^def publishOdom():$/;"	kind:function	line:19
+publish_joint_states	../src/rbx1/rbx1_dynamixels/nodes/dynamixel_joint_state_publisher.py	/^    def publish_joint_states(self):$/;"	kind:member	line:71
+publish_roi	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	/^    def publish_roi(self):$/;"	kind:member	line:298
+py_coordinate_transformation.py	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	1;"	kind:file	line:1
+py_tf_broadcaster.py	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	1;"	kind:file	line:1
+py_tf_broadcaster02.py	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster02.py	1;"	kind:file	line:1
+py_tf_follower.py	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	1;"	kind:file	line:1
+py_tf_listerner.py	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_listerner.py	1;"	kind:file	line:1
+pylistener.py	../src/ROS-Academy-for-Beginners/topic_demo/scripts/pylistener.py	1;"	kind:file	line:1
+pyrdown.py	../src/rbx1/rbx1_vision/scripts/pyrdown.py	1;"	kind:file	line:1
+pyrdown_image	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^        pyrdown_image = cv2.pyrDown(pyrdown_image)$/;"	kind:variable	line:34
+pyrdown_image	../src/rbx1/rbx1_vision/scripts/pyrdown.py	/^    pyrdown_image = image.copy()$/;"	kind:variable	line:31
+pytalker.py	../src/ROS-Academy-for-Beginners/topic_demo/scripts/pytalker.py	1;"	kind:file	line:1
+q	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    q=tf.transformations.random_quaternion(rand=None)$/;"	kind:variable	line:13
+q_rpy	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    q_rpy=tf.transformations.euler_from_quaternion(q)$/;"	kind:variable	line:65
+qualityLevel	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^                   qualityLevel = 0.1,$/;"	kind:variable	line:24
+quat_to_angle	../src/rbx1/rbx1_nav/src/rbx1_nav/transform_utils.py	/^def quat_to_angle(quat):$/;"	kind:function	line:13
+qxq	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    qxq=tf.transformations.quaternion_multiply(q,n_q)$/;"	kind:variable	line:51
+rate	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    rate = rospy.Rate(1)$/;"	kind:variable	line:21
+rate	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster02.py	/^    rate = rospy.Rate(1)$/;"	kind:variable	line:28
+rate	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_listerner.py	/^    rate = rospy.Rate(1.0)  $/;"	kind:variable	line:11
+rate	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        rate = rospy.Rate(10.0)$/;"	kind:variable	line:15
+read	../src/rbx1/rbx1_vision/nodes/video.py	/^    def read(self, dst=None):$/;"	kind:member	line:26
+read	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def read(self, dst=None):$/;"	kind:member	line:28
+rect2rect_mtx	../src/rbx1/rbx1_vision/nodes/common.py	/^def rect2rect_mtx(src, dst):$/;"	kind:function	line:29
+rect2rect_mtx	../src/rbx1/rbx1_vision/scripts/common.py	/^def rect2rect_mtx(src, dst):$/;"	kind:function	line:29
+relax_all_servos.py	../src/rbx1/rbx1_dynamixels/nodes/relax_all_servos.py	1;"	kind:file	line:1
+render	../src/rbx1/rbx1_vision/nodes/video.py	/^    def render(self, dst):$/;"	kind:member	line:23
+render	../src/rbx1/rbx1_vision/nodes/video.py	/^    def render(self, dst):$/;"	kind:member	line:71
+render	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def render(self, dst):$/;"	kind:member	line:25
+render	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    def render(self, dst):$/;"	kind:member	line:73
+resolution	../src/navigation/map_server/scripts/crop_map	/^    resolution = map_data["resolution"]$/;"	kind:variable	line:95
+result	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            result = cv2.matchTemplate(image_copy, template_copy, cv2.TM_CCOEFF_NORMED)$/;"	kind:variable	line:129
+result_height	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            result_height = H - h + 1$/;"	kind:variable	line:126
+result_width	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            result_width = W - w + 1$/;"	kind:variable	line:125
+robot_keyboard_teleop.py	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	1;"	kind:file	line:1
+roll	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    roll=0 $/;"	kind:variable	line:18
+rollback_env_variables	../devel/_setup_util.py	/^def rollback_env_variables(environ, env_var_subfolders):$/;"	kind:function	line:68
+ros2opencv2.py	../src/rbx1/rbx1_vision/src/rbx1_vision/ros2opencv2.py	1;"	kind:file	line:1
+rotation_matrix	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            rotation_matrix = cv2.getRotationMatrix2D((template_copy.shape[1]\/2, template_copy.shape[0]\/2), r, 1.0)$/;"	kind:variable	line:114
+rotations	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        rotations = [-30, 0, 30]$/;"	kind:variable	line:74
+rotations	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        rotations = [0]$/;"	kind:variable	line:77
+rpy_m	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    rpy_m=tf.transformations.euler_matrix(1, 2, 3, 'syxz')$/;"	kind:variable	line:57
+scale	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        scale = min_scale$/;"	kind:variable	line:65
+scale_and_rotate	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    scale_and_rotate = True$/;"	kind:variable	line:35
+scale_factor	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    scale_factor = 1.2 # 20% increases$/;"	kind:variable	line:47
+scales	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        scales = [1]$/;"	kind:variable	line:76
+scales	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        scales = list()$/;"	kind:variable	line:64
+script_good_features.py	../src/rbx1/rbx1_vision/scripts/script_good_features.py	1;"	kind:file	line:1
+script_match_template.py	../src/rbx1/rbx1_vision/scripts/script_match_template.py	1;"	kind:file	line:1
+script_video.py	../src/rbx1/rbx1_vision/scripts/script_video.py	1;"	kind:file	line:1
+server	../src/ROS-Academy-for-Beginners/action_demo/src/dishes_Server.py	/^   server = DoDishesServer()$/;"	kind:variable	line:22
+server_demo.py	../src/ROS-Academy-for-Beginners/service_demo/scripts/server_demo.py	1;"	kind:file	line:1
+server_srv	../src/ROS-Academy-for-Beginners/service_demo/scripts/server_demo.py	/^def server_srv():$/;"	kind:function	line:11
+setUp	../src/navigation/amcl/test/basic_localization.py	/^    def setUp(self):$/;"	kind:member	line:17
+set_cmd_vel	../src/rbx1/rbx1_apps/nodes/follower.py	/^    def set_cmd_vel(self, msg):$/;"	kind:member	line:98
+set_cmd_vel	../src/rbx1/rbx1_apps/nodes/follower2.py	/^    def set_cmd_vel(self, msg):$/;"	kind:member	line:92
+set_cmd_vel	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^    def set_cmd_vel(self, msg):$/;"	kind:member	line:162
+set_cmd_vel	../src/rbx1/rbx1_apps/nodes/object_tracker.py	/^    def set_cmd_vel(self, msg):$/;"	kind:member	line:113
+set_joint_cmd	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def set_joint_cmd(self, msg):$/;"	kind:member	line:182
+set_pose.py	../src/navigation/amcl/test/set_pose.py	1;"	kind:file	line:1
+set_servo_position	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def set_servo_position(self, servo, position):$/;"	kind:member	line:308
+set_servo_speed	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def set_servo_speed(self, servo, speed):$/;"	kind:member	line:301
+set_smin	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def set_smin(self, pos):$/;"	kind:member	line:52
+set_threshold	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def set_threshold(self, pos):$/;"	kind:member	line:61
+set_vmax	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def set_vmax(self, pos):$/;"	kind:member	line:58
+set_vmin	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def set_vmin(self, pos):$/;"	kind:member	line:55
+setup.py	../src/navigation/base_local_planner/setup.py	1;"	kind:file	line:1
+setup.py	../src/rbx1/rbx1_nav/setup.py	1;"	kind:file	line:1
+setup.py	../src/rbx1/rbx1_vision/setup.py	1;"	kind:file	line:1
+setup_args	../src/rbx1/rbx1_nav/setup.py	/^setup_args = generate_distutils_setup($/;"	kind:variable	line:7
+setup_args	../src/rbx1/rbx1_vision/setup.py	/^setup_args = generate_distutils_setup($/;"	kind:variable	line:7
+shot_idx	../src/rbx1/rbx1_vision/nodes/video.py	/^    shot_idx = 0$/;"	kind:variable	line:135
+shot_idx	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    shot_idx = 0$/;"	kind:variable	line:138
+shotdir	../src/rbx1/rbx1_vision/nodes/video.py	/^    shotdir = args.get('--shotdir', '.')$/;"	kind:variable	line:128
+shotdir	../src/rbx1/rbx1_vision/scripts/script_video.py	/^    shotdir = args.get('--shotdir', '.')$/;"	kind:variable	line:130
+show	../src/rbx1/rbx1_vision/nodes/common.py	/^    def show(self):$/;"	kind:member	line:71
+show	../src/rbx1/rbx1_vision/scripts/common.py	/^    def show(self):$/;"	kind:member	line:71
+show_all_matches	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    show_all_matches = False$/;"	kind:variable	line:36
+show_hist	../src/rbx1/rbx1_vision/nodes/camshift.py	/^    def show_hist(self):$/;"	kind:member	line:121
+shutdown	../src/rbx1/rbx1_apps/nodes/follower.py	/^    def shutdown(self):$/;"	kind:member	line:152
+shutdown	../src/rbx1/rbx1_apps/nodes/follower2.py	/^    def shutdown(self):$/;"	kind:member	line:144
+shutdown	../src/rbx1/rbx1_apps/nodes/object_follower.py	/^    def shutdown(self):$/;"	kind:member	line:277
+shutdown	../src/rbx1/rbx1_apps/nodes/object_tracker.py	/^    def shutdown(self):$/;"	kind:member	line:159
+shutdown	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def shutdown(self):$/;"	kind:member	line:318
+shutdown	../src/rbx1/rbx1_nav/nodes/calibrate_angular.py	/^    def shutdown(self):$/;"	kind:member	line:153
+shutdown	../src/rbx1/rbx1_nav/nodes/calibrate_linear.py	/^    def shutdown(self):$/;"	kind:member	line:144
+shutdown	../src/rbx1/rbx1_nav/nodes/move_base_square.py	/^    def shutdown(self):$/;"	kind:member	line:158
+shutdown	../src/rbx1/rbx1_nav/nodes/nav_square.py	/^    def shutdown(self):$/;"	kind:member	line:163
+shutdown	../src/rbx1/rbx1_nav/nodes/nav_test.py	/^    def shutdown(self):$/;"	kind:member	line:188
+shutdown	../src/rbx1/rbx1_nav/nodes/odom_out_and_back.py	/^    def shutdown(self):$/;"	kind:member	line:165
+shutdown	../src/rbx1/rbx1_nav/nodes/timed_out_and_back.py	/^    def shutdown(self):$/;"	kind:member	line:104
+shutdownhook	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        def shutdownhook():$/;"	kind:function	line:21
+sources	../src/rbx1/rbx1_vision/nodes/video.py	/^        sources = [ presets['chess'] ]$/;"	kind:variable	line:130
+sources	../src/rbx1/rbx1_vision/scripts/script_video.py	/^        sources = [ presets['chess'] ]$/;"	kind:variable	line:132
+speech_callback	../src/rbx1/rbx1_speech/nodes/voice_nav.py	/^    def speech_callback(self, msg):$/;"	kind:member	line:81
+speed	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^speed = .2$/;"	kind:variable	line:56
+speedBindings	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^speedBindings={$/;"	kind:variable	line:36
+splitfn	../src/rbx1/rbx1_vision/nodes/common.py	/^def splitfn(fn):$/;"	kind:function	line:7
+splitfn	../src/rbx1/rbx1_vision/scripts/common.py	/^def splitfn(fn):$/;"	kind:function	line:7
+src_init_file	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	/^        src_init_file = os_path.join(p, __name__, '__init__.py')$/;"	kind:variable	line:25
+src_init_file	../devel/lib/python2.7/dist-packages/local_planner_limits/__init__.py	/^    src_init_file = os_path.join(p, __name__ + '.py')$/;"	kind:variable	line:21
+src_init_file	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	/^        src_init_file = os_path.join(p, __name__, '__init__.py')$/;"	kind:variable	line:25
+src_init_file	../devel/lib/python2.7/dist-packages/rbx1_nav/__init__.py	/^    src_init_file = os_path.join(p, __name__ + '.py')$/;"	kind:variable	line:21
+src_init_file	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	/^        src_init_file = os_path.join(p, __name__, '__init__.py')$/;"	kind:variable	line:25
+src_init_file	../devel/lib/python2.7/dist-packages/rbx1_vision/__init__.py	/^    src_init_file = os_path.join(p, __name__ + '.py')$/;"	kind:variable	line:21
+start	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^    start = clock()$/;"	kind:variable	line:33
+start	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    start = clock()$/;"	kind:variable	line:95
+static_odom_broadcaster.py	../src/navigation/fake_localization/static_odom_broadcaster.py	1;"	kind:file	line:1
+system	../devel/_setup_util.py	/^system = platform.system()$/;"	kind:variable	line:48
+t	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster02.py	/^    t = geometry_msgs.msg.TransformStamped()$/;"	kind:variable	line:16
+t_publish	../src/navigation/amcl/test/set_pose.py	/^    t_publish = rospy.Time()$/;"	kind:variable	line:38
+t_stamp	../src/navigation/amcl/test/set_pose.py	/^    t_stamp = rospy.Time()$/;"	kind:variable	line:37
+talkback	../src/rbx1/rbx1_speech/nodes/talkback.py	/^    def talkback(self, msg):$/;"	kind:member	line:61
+talkback.py	../src/rbx1/rbx1_speech/nodes/talkback.py	1;"	kind:file	line:1
+talker	../src/ROS-Academy-for-Beginners/topic_demo/scripts/pytalker.py	/^def talker():$/;"	kind:function	line:7
+target_file	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        target_file = "test_images\/mona_lisa_face.png"$/;"	kind:variable	line:24
+target_file	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        target_file = sys.argv[1]$/;"	kind:variable	line:21
+template	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    template = cv2.imread(target_file, cv.CV_LOAD_IMAGE_COLOR)$/;"	kind:variable	line:50
+template_copy	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                template_copy = cv2.pyrDown(template_copy)$/;"	kind:variable	line:119
+template_copy	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            template_copy = cv2.resize(template_start, (int(template_width * s), int(template_height * s)))$/;"	kind:variable	line:111
+template_copy	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^            template_copy = cv2.warpAffine(template_copy, rotation_matrix, (template_copy.shape[1], template_copy.shape[0]), borderMode=cv2.BORDER_REPLICATE)$/;"	kind:variable	line:115
+template_start	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        template_start = cv2.resize(template_start, (int(0.5 * template_start.shape[0]), int(0.5 * template_start.shape[1])))$/;"	kind:variable	line:88
+template_start	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    template_start = template.copy()$/;"	kind:variable	line:83
+template_tracker.py	../src/rbx1/rbx1_vision/nodes/template_tracker.py	1;"	kind:file	line:1
+test_basic_localization	../src/navigation/amcl/test/basic_localization.py	/^    def test_basic_localization(self):$/;"	kind:member	line:40
+test_consumer	../src/navigation/map_server/test/consumer.py	/^    def test_consumer(self):$/;"	kind:member	line:59
+test_file	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        test_file = "test_images\/mona_lisa.png"$/;"	kind:variable	line:25
+test_file	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        test_file = sys.argv[2]$/;"	kind:variable	line:22
+tf_cb	../src/navigation/amcl/test/basic_localization.py	/^    def tf_cb(self, msg):$/;"	kind:member	line:23
+timed_out_and_back.py	../src/rbx1/rbx1_nav/nodes/timed_out_and_back.py	1;"	kind:file	line:1
+to_rect	../src/rbx1/rbx1_vision/nodes/common.py	/^def to_rect(a):$/;"	kind:function	line:23
+to_rect	../src/rbx1/rbx1_vision/scripts/common.py	/^def to_rect(a):$/;"	kind:function	line:23
+track_keypoints	../src/rbx1/rbx1_vision/src/rbx1_vision/lk_tracker.py	/^    def track_keypoints(self, grey, prev_grey):$/;"	kind:member	line:99
+transform_utils.py	../src/rbx1/rbx1_nav/src/rbx1_nav/transform_utils.py	1;"	kind:file	line:1
+trunc	../src/rbx1/rbx1_nav/nodes/nav_test.py	/^def trunc(f, n):$/;"	kind:function	line:195
+trunc	../src/rbx1/rbx1_vision/src/rbx1_vision/face_detector.py	/^def trunc(f, n):$/;"	kind:function	line:134
+turn	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^turn = 1$/;"	kind:variable	line:57
+turtle_vel	../src/ROS-Academy-for-Beginners/tf_follower/scripts/py_tf_follower.py	/^        turtle_vel = rospy.Publisher('\/mybot_cmd_vel', geometry_msgs.msg.Twist,queue_size=1)$/;"	kind:variable	line:13
+update_initial_pose	../src/rbx1/rbx1_nav/nodes/nav_test.py	/^    def update_initial_pose(self, initial_pose):$/;"	kind:member	line:185
+update_joint_state	../src/rbx1/rbx1_dynamixels/nodes/head_tracker.py	/^    def update_joint_state(self, msg):$/;"	kind:member	line:311
+useHarrisDetector	../src/rbx1/rbx1_vision/scripts/script_good_features.py	/^                   useHarrisDetector = False,$/;"	kind:variable	line:27
+v	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    v=tf.transformations.random_vector(3)$/;"	kind:variable	line:21
+v_m	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_coordinate_transformation.py	/^    v_m=tf.transformations.translation_matrix(v)$/;"	kind:variable	line:25
+vels	../src/ROS-Academy-for-Beginners/robot_sim_demo/scripts/robot_keyboard_teleop.py	/^def vels(speed,turn):$/;"	kind:function	line:59
+video.py	../src/rbx1/rbx1_vision/nodes/video.py	1;"	kind:file	line:1
+video2ros.py	../src/rbx1/rbx1_vision/nodes/video2ros.py	1;"	kind:file	line:1
+voice_nav.py	../src/rbx1/rbx1_speech/nodes/voice_nav.py	1;"	kind:file	line:1
+w	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^                w = int(w * s)$/;"	kind:variable	line:150
+w	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^    w = int(w * best_s)$/;"	kind:variable	line:168
+width_ratio	../src/rbx1/rbx1_vision/scripts/script_match_template.py	/^        width_ratio = float(image.shape[1]) \/ template.shape[1]$/;"	kind:variable	line:56
+x	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    x=1.0 $/;"	kind:variable	line:15
+y	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    y=2.0$/;"	kind:variable	line:16
+yaw	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^        yaw=yaw+0.1   $/;"	kind:variable	line:23
+yaw	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    yaw=1.57 $/;"	kind:variable	line:20
+z	../src/ROS-Academy-for-Beginners/tf_demo/scripts/py_tf_broadcaster.py	/^    z=3.0  $/;"	kind:variable	line:17
