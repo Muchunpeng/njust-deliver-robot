@@ -1,0 +1,58 @@
+{
+  "name": "ros-control-center",
+  "version": "0.8.0",
+  "description": "A universal web-based control center for ROS robots.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pantor/ros-control-center.git"
+  },
+  "author": "Lars Berscheid",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/pantor/ros-control-center/issues"
+  },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve --base-href=",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/animations": "^5.2.2",
+    "@angular/common": "^5.2.2",
+    "@angular/compiler": "^5.2.2",
+    "@angular/compiler-cli": "^5.2.2",
+    "@angular/core": "^5.2.2",
+    "@angular/forms": "^5.2.2",
+    "@angular/http": "^5.2.2",
+    "@angular/platform-browser": "^5.2.2",
+    "@angular/platform-browser-dynamic": "^5.2.2",
+    "@angular/router": "^5.2.2",
+    "bootstrap": "^4.0.0",
+    "core-js": "^2.5.3",
+    "roslib": "^0.20.0",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.6",
+    "@angular/language-service": "^5.2.2",
+    "@types/jasmine": "^2.8.6",
+    "@types/node": "^8.5.9",
+    "codelyzer": "~4.0.2",
+    "jasmine-core": "^2.9.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "~2.2.0",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.4.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "protractor": "~5.2.2",
+    "ts-node": "~4.1.0",
+    "tslint": "~5.8.0",
+    "typescript": "~2.4.2"
+  }
+}

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>智能管理系统登录</title>
+	<meta name="viewport" content="width=device-width">
+	<link href="css/login.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+	<div class="login">
+		<form action="" method="post" id="form">
+			<div class="logo"></div>
+			<div class="login_form">
+				<div class="user">
+					<input class="text_value" value="" name="username" type="text" id="username">
+					<input class="text_value" value="" name="password" type="password" id="password">
+				</div>
+				<button class="button" id="submit" onclick="submit_check()">登录</button>
+			</div>
+			<div id="tip"></div>
+			<div class="foot">Copyright &copy; 2018.Company name All rights reserved.</div>
+		</form>
+	</div>
+	<script>
+		function submit_check() {
+			var name = document.getElementById("username").value;
+			var mima = document.getElementById("password").value;
+			if (name == 1 && mima == 1)
+				window.open("http://muagv.wicp.vip:8080/mu/mu.html");
+			else
+				alert("密码不对，请重新输入");
+		}
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<div class="card">
+  <h5 class="card-title">
+    {{ service.name | humanize }}
+    <small class="text-muted">({{ service.type }} / Default)</small>
+  </h5>
+
+  <div class="card-body-sm">
+    <form class="d-flex justify-content-between">
+      <app-type [info]="service.request_info" [data]="input" [readonly]="false"></app-type>
+
+      <button class="btn btn-secondary align-self-end" type="button" (click)="callService()">Call</button>
+    </form>
+
+    <div class="mt-4" *ngIf="response">
+      <hr>
+      <app-type [info]="service.response_info" [data]="response" [readonly]="true"></app-type>
+    </div>
+  </div>
+</div>
